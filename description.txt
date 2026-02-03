@@ -1,0 +1,26 @@
+The Entropy Engine
+
+The Entropy Engine is a high-performance randomness generator designed for developers, gamers, and security enthusiasts. Unlike standard "random" tools that rely on predictable pseudo-algorithms, the Entropy Engine utilizes a hybrid Python-C# architecture to harvest real system entropy (mouse movement, process IDs, quantum noise) for true unpredictability.
+Key Features
+
+    🎲 Unlimited Dice Roller: Roll standard polyhedral dice (D4–D20) or custom N-sided dice. No limits on roll counts—roll 1 or 1,000,000 dice instantly.
+
+    ⚖️ Balance Lab (Monte Carlo): Scientifically verify fairness. Run massive simulations on dice, coins, numbers, and option pickers to visualize probability distribution and deviation.
+
+    🔐 Password Forge: Generate cryptographically strong passwords tailored to specific length and character requirements.
+
+    🔀 Decision Engine: Input custom lists to pick a random winner or shuffle items using the Fisher-Yates algorithm.
+
+    🖱️ Chaos Pad: Manually inject entropy into the random seed pool using mouse gestures and system noise.
+
+    🆔 UUID Utility: Generate globally unique identifiers (v4) persisted to local storage.
+
+Technical Highlights
+
+    Hybrid Core: Combines a responsive WPF (C#) frontend with a powerful Python backend.
+
+    Multi-Threaded: Heavy calculations (like million-cycle simulations) run on background threads, keeping the UI responsive with real-time progress updates.
+
+    Portable Architecture: Fully self-contained single-file executable. No Python or .NET installation required.
+
+    Matrix UI: Custom "Digital Rain" aesthetic with high-contrast visibility and responsive animations.
